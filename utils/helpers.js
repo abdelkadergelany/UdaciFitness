@@ -4,9 +4,11 @@ import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector
 import { red, orange, blue, lightPurp, pink, white } from './colors'
 
 export function getDailyReminderValue () {
-  return {
+  return  [{
+
     today: "👋 Don't forget to log your data today!"
-  }
+    
+    }]
 }
 
 const styles = StyleSheet.create({
